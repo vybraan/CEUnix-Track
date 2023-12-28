@@ -1,4 +1,4 @@
-package com.bawkertech.ceunixtack.home;
+package com.bawkertech.ceunixtack.ui.home;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,9 +11,9 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.bawkertech.ceunixtack.R;
 import com.bawkertech.ceunixtack.databinding.FragmentHomeBinding;
-import com.bawkertech.ceunixtack.home.missing.MissingFragment;
-import com.bawkertech.ceunixtack.home.post.PostFragment;
-import com.bawkertech.ceunixtack.home.feed.FeedFragment;
+import com.bawkertech.ceunixtack.ui.home.missing.MissingFragment;
+import com.bawkertech.ceunixtack.ui.home.post.PostFragment;
+import com.bawkertech.ceunixtack.ui.home.feed.FeedFragment;
 
 public class FragmentHome extends Fragment {
 

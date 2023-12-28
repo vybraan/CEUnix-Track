@@ -10,9 +10,8 @@ import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.bawkertech.ceunixtack.Hometest;
 import com.bawkertech.ceunixtack.databinding.ActivityLoginBinding;
-import com.bawkertech.ceunixtack.home.Home;
+import com.bawkertech.ceunixtack.ui.home.Home;
 import com.bawkertech.ceunixtack.services.MissingPersonService;
 
 import okhttp3.MediaType;
@@ -32,6 +31,8 @@ public class Login extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         binding.loginButton.setOnClickListener(v -> {
+//                    Intent intent = new Intent(Login.this, Home.class);
+//                    startActivity(intent);
                     if (!validateUsername() | !validatePassword()) {
                         return;
                     }
@@ -94,6 +95,15 @@ public class Login extends AppCompatActivity {
                 System.out.println(response.message());
 
                 if (response.isSuccessful()) {
+
+
+                    Intent intent = new Intent(Login.this, Home.class);
+//                    intent.putExtra("username", username);
+//                    intent.putExtra("password", password);
+//                    intent.putExtra("isLogin", true);
+                    startActivity(intent);
+                    finish();
+
 //                    clearFilds();
 //                    JSONArray jsonArray = new JSONArray(response.toString());
                     System.out.println("It work till here");
@@ -106,12 +116,12 @@ public class Login extends AppCompatActivity {
 
                     //open new stuff
 
-                    Intent intent = new Intent(Login.this, Home.class);
-                    intent.putExtra("username", username);
-                    intent.putExtra("password", password);
-                    intent.putExtra("isLogin", true);
-                    startActivity(intent);
-                    finish();
+//                    Intent intent = new Intent(Login.this, Home.class);
+//                    intent.putExtra("username", username);
+//                    intent.putExtra("password", password);
+//                    intent.putExtra("isLogin", true);
+//                    startActivity(intent);
+//                    finish();
                 }
 
             } catch (Exception e) {

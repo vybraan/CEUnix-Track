@@ -1,11 +1,8 @@
-package com.bawkertech.ceunixtack.home;
+package com.bawkertech.ceunixtack.ui.home;
 
 import android.app.AlertDialog;
-import android.app.Dialog;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.content.res.TypedArray;
-import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.WindowManager;
@@ -21,7 +18,6 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bawkertech.ceunixtack.AutoSpaceItem;
 import com.bawkertech.ceunixtack.DonationAdapter;
 import com.bawkertech.ceunixtack.DonationOption;
 import com.bawkertech.ceunixtack.DrawerAdapter;

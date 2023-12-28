@@ -1,4 +1,4 @@
-package com.bawkertech.ceunixtack.home.post;
+package com.bawkertech.ceunixtack.ui.home.post;
 
 import android.os.Bundle;
 

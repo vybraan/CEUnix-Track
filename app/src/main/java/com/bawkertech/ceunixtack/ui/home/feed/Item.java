@@ -1,4 +1,4 @@
-package com.bawkertech.ceunixtack.home.feed;
+package com.bawkertech.ceunixtack.ui.home.feed;
 
 
 import android.graphics.drawable.Drawable;

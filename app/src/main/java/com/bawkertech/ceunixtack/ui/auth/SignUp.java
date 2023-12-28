@@ -87,7 +87,8 @@ public class SignUp extends AppCompatActivity {
 
 
             Request request = new Request.Builder()
-                    .url("http://192.168.8.176:5000/api/v1/signup")
+
+                    .url("https://1109-197-218-115-102.ngrok-free.app/api/v1/signup")
                     .post(body)
                     .build();
 

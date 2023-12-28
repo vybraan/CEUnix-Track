@@ -1,15 +1,13 @@
-package com.bawkertech.ceunixtack.home.feed;
+package com.bawkertech.ceunixtack.ui.home.feed;
 
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
 import com.bawkertech.ceunixtack.App;
-import com.bawkertech.ceunixtack.R;
 import com.bawkertech.ceunixtack.models.MissingPerson;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 

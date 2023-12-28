@@ -1,4 +1,4 @@
-package com.bawkertech.ceunixtack.home.feed;
+package com.bawkertech.ceunixtack.ui.home.feed;
 
 
 import android.view.LayoutInflater;
@@ -10,7 +10,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bawkertech.ceunixtack.R;
-import com.bawkertech.ceunixtack.home.feed.Item;
 import com.bumptech.glide.Glide;
 
 import java.util.List;

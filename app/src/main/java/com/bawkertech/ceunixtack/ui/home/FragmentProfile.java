@@ -1,4 +1,4 @@
-package com.bawkertech.ceunixtack.home;
+package com.bawkertech.ceunixtack.ui.home;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

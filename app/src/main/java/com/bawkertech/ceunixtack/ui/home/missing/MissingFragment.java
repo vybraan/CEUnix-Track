@@ -1,4 +1,4 @@
-package com.bawkertech.ceunixtack.home.missing;
+package com.bawkertech.ceunixtack.ui.home.missing;
 
 import android.os.Bundle;
 
@@ -7,16 +7,9 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.TextView;
 
-import com.bawkertech.ceunixtack.App;
 import com.bawkertech.ceunixtack.R;
-import com.bawkertech.ceunixtack.models.MissingPerson;
-
-import java.util.List;
 
 /**
  * A simple {@link Fragment} subclass.
